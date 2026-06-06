@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Birthday Passcode</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="photo-card">
+        <div class="bow">🎀</div>
+<img src="images/1.jpg.jpeg" alt="Birthday">
+        <h2>Happy Birthday meri jaann❤️ !</h2>
+    </div>
+
+    <div class="passcode-card">
+        <h3>Enter a Passcode</h3>
+
+        <input type="password" id="passcode" maxlength="4" placeholder="Guess😉🤔">
+
+        <div class="keypad">
+            <button onclick="addNum('1')">1</button>
+            <button onclick="addNum('2')">2</button>
+            <button onclick="addNum('3')">3</button>
+
+            <button onclick="addNum('4')">4</button>
+            <button onclick="addNum('5')">5</button>
+            <button onclick="addNum('6')">6</button>
+
+            <button onclick="addNum('7')">7</button>
+            <button onclick="addNum('8')">8</button>
+            <button onclick="addNum('9')">9</button>
+
+            <button onclick="clearPass()">⌫</button>
+            <button onclick="addNum('0')">0</button>
+            <button onclick="checkPass()">✓</button>
+        </div>
+    </div>
+
+</div>
+
+<script src="scripts.js"></script>
+</body>
+</html>
